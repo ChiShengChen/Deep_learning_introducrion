@@ -36,7 +36,7 @@ pip install torch torchtext numpy matplotlib tqdm scikit-learn pandas
 - Chapter 3: 自定義神經網路
   - 神經網路基本組件
   - 模型架構設計
-  - 啟動函數選擇
+  - 激勵函數選擇
 
 - Chapter 4: 卷積神經網路 (CNN)
   - CNN 基本原理
@@ -46,20 +46,20 @@ pip install torch torchtext numpy matplotlib tqdm scikit-learn pandas
 ### 序列模型
 - Chapter 5: 循環神經網路 (RNN)
   - RNN 基本原理
-  - 文本分類實作
+  - 隨機生成文本分類實作
 
 - Chapter 6: 長短期記憶網路 (LSTM)
   - LSTM 架構解析
-  - 序列預測實作
+  - 隨機生成序列預測實作
 
 - Chapter 7: 門控循環單元 (GRU)
   - GRU vs LSTM
-  - 序列預測實作
+  - 隨機生成序列預測實作
 
 - Chapter 8: Transformer
   - 注意力機制
   - 自注意力機制
-  - 文本分類實作
+  - AG_NEWS 文本分類實作
 
 ## 環境配置
 - Python 3.7+
