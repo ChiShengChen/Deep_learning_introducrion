@@ -72,6 +72,19 @@ pip install torch torchtext numpy matplotlib tqdm scikit-learn pandas
 - torchtext
 
 ## Dataset說明
+### MNIST手寫數字
+MNIST 是一個經典的手寫數字識別數據集，讓我簡單介紹一下：
+內容：
+- 手寫數字（0-9）的灰度圖像
+- 每張圖像大小為 28x28 像素
+- 每個像素值範圍 0-255（灰度值）
+規模：
+- 訓練集：60,000 張圖像
+- 測試集：10,000 張圖像
+- 總共 70,000 張圖像
+類別：
+- 10 個類別（數字 0-9）
+- 每個類別數量大致平衡
 
 ### AG News 
 AG News 是一個新聞文本分類數據集，包含四個類別：
