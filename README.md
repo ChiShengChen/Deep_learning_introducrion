@@ -9,11 +9,6 @@
 - PyTorch 2.0+
 - CUDA (可選，用於 GPU 加速)
 
-## 章節內容
-
-### Chapter 5: RNN (循環神經網路)
-使用 RNN 實現文本分類。
-
 需要安裝的套件：
 ```
 pip install torch torchtext numpy matplotlib tqdm scikit-learn pandas
