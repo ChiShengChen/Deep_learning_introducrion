@@ -61,11 +61,31 @@ pip install torch torchtext numpy matplotlib tqdm scikit-learn pandas
   - 自注意力機制
   - AG_NEWS 文本分類實作
 
+- Chapter 9: Mamba
+  - 狀態空間機制
+  - AG_NEWS 文本分類實作
+
 ## 環境配置
 - Python 3.7+
 - PyTorch 2.0+
 - torchvision
 - torchtext
+
+## Dataset說明
+
+### AG News 
+AG News 是一個新聞文本分類數據集，包含四個類別：
+- World (世界新聞)
+- Sports (體育新聞)
+- Business (商業新聞)
+- Sci/Tech (科技新聞)
+數據集規模：
+- 訓練集：120,000 條新聞文本
+- 測試集：7,600 條新聞文本
+每條數據包含：
+- 新聞標題
+- 新聞描述
+- 類別標籤 (1-4)
 
 ## 學習建議
 1. 按照章節順序學習
